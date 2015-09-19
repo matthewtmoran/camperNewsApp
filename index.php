@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 text-center">
-                    <h1>news</h1>
+                    <h1>Camper News</h1>
             </div>
         </div>
         <div class="row text-center row-centered content-container"></div>

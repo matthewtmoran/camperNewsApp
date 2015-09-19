@@ -38,16 +38,40 @@
 	/* inline-block space fix */
 	margin-right:-4px;
 }
-
+#wrapper {
+	background: #222;
+	h1 {
+		color: white;
+	}
+}
 .news-articles {
+	margin-bottom: 20px;
 	max-width: 240px;
-	//display: inline-block;
 	.content-details {
+		background: #484848;
+		padding: 5px;
 		> a {
 			display: block;
 		}
+		a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+			transition: .3s;
+			&:hover {
+				color: #7F7F7F;
+			}
+		}
+		p {
+			color: white;
+			i {
+				padding-right: 5px;
+				font-size: .7em;
+			}
+		}
 	}
 	img {
+		border-radius: 10px 10px 0 0;
 		display: block;
 		width: 100%;
 		max-width: 100%;
